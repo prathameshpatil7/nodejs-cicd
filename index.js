@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => res.send("Express on Vercel"));
+app.get("/books", (req, res) => res.send("Books on Vercel"));
 
 app.listen(3003, () => console.log("Server ready on port 3003."));
 
