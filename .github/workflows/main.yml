@@ -23,6 +23,8 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm test
+      - name: Create Build
+        run: npm run build
 
   deploy-Production:
     runs-on: ubuntu-latest
