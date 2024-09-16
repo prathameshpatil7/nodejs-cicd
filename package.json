@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node src",
     "test": "jest src/app.test.js",
-    "build": "babel src -d public"
+    "build": "echo 'Nothing to build' && exit 0"
   },
   "author": "",
   "license": "ISC",
